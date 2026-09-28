@@ -28,7 +28,7 @@ The analysis focuses on:
 
 ### Main Dashboard
 
-<img src="images/Dashboard.png" alt="Data Professional Survey Breakdown Dashboard" width="900">
+<img src="./Images/Dashboard.png" alt="Data Professional Survey Breakdown Dashboard" width="900">
 
 The main Power BI dashboard provides an interactive overview of data professional survey responses, including salary, job title, programming language preferences, country distribution, career difficulty, and satisfaction metrics.
 
@@ -36,7 +36,7 @@ The main Power BI dashboard provides an interactive overview of data professiona
 
 ## 📋 Project Information
 
-<img src="images/Dashboard_Information.png" alt="Data Professional Survey Breakdown Project Information" width="900">
+<img src="./Images/Dashboard_Information.png" alt="Data Professional Survey Breakdown Information" width="900">
 
 The project information page summarizes the objective, key analysis areas, KPIs, tools and technologies, project details, and skills demonstrated throughout the project.
 
