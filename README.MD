@@ -36,9 +36,9 @@ The main Power BI dashboard provides an interactive overview of data professiona
 
 ## 📋 Project Information
 
-<img src="./Images/Dashboard_Information.png" alt="Data Professional Survey Breakdown Information" width="900">
+<img src="./Images/Dashboard_Information.png" alt="Data Professional Survey Breakdown Project Information" width="900">
 
-The project information page summarizes the objective, key analysis areas, KPIs, tools and technologies, project details, and skills demonstrated throughout the project.
+The project information page summarizes the project objective, key analysis areas, KPIs, tools and technologies, project details, and skills demonstrated throughout the project.
 
 ---
 
@@ -49,7 +49,7 @@ This project helps answer important analytical questions:
 - How many professionals participated in the survey?
 - What is the average age of survey participants?
 - Which countries have the highest number of participants?
-- Which job titles have higher average salaries?
+- How does average salary vary by job title?
 - Which programming languages are most preferred?
 - How difficult is it to enter the data industry?
 - How satisfied are professionals with their work-life balance?
@@ -86,7 +86,7 @@ This project helps answer important analytical questions:
 
 The dashboard analyzes the geographical distribution of survey participants across different countries.
 
-This analysis helps understand the representation of data professionals across different regions.
+This analysis provides an overview of the representation of data professionals across different regions.
 
 ---
 
@@ -102,7 +102,7 @@ The dashboard compares average salary across different data-related job roles, i
 - Student / Looking for a Job
 - Other
 
-This provides a comparative view of salary levels across different professional roles.
+This analysis provides a comparative view of salary levels across different professional roles.
 
 ---
 
@@ -139,7 +139,9 @@ Difficulty levels include:
 
 The dashboard measures respondents' satisfaction with their work-life balance.
 
-**Work-Life Balance Happiness: 5.74 / 10**
+### Work-Life Balance Happiness
+
+**5.74 / 10**
 
 This KPI provides an overall view of work-life balance satisfaction among survey participants.
 
@@ -149,7 +151,9 @@ This KPI provides an overall view of work-life balance satisfaction among survey
 
 The dashboard also analyzes salary satisfaction among respondents.
 
-**Salary Happiness: 4.27 / 10**
+### Salary Happiness
+
+**4.27 / 10**
 
 This metric provides an overall view of salary satisfaction across the surveyed professionals.
 
@@ -164,19 +168,25 @@ DAX measures were created to support KPI development and analytical reporting.
 ```DAX
 Survey Takers =
 COUNTROWS('Data Professional Survey')
+```
+
+### Additional Calculations
+
+Additional calculations and analytical fields were used for:
+
+- Survey participant counts
+- Average age
+- Salary analysis
+- Satisfaction metrics
+- Job title analysis
+- Programming language analysis
+- Demographic analysis
 
 ---
 
-Additional calculations were used for:
+## 🔄 Project Workflow
 
-Survey participant counts
-Average age
-Salary analysis
-Satisfaction metrics
-Job title analysis
-Programming language analysis
-Demographic analysis
-🔄 Project Workflow
+```text
 Survey Dataset
       ↓
 Data Cleaning
@@ -194,99 +204,133 @@ Data Visualization
 Interactive Power BI Dashboard
       ↓
 Business Insights
-🧠 Skills Demonstrated
-Power BI
-Dashboard Development
-Interactive Visualization
-KPI Development
-Business Intelligence
-Report Design
-Power Query
-Data Cleaning
-Data Transformation
-Data Preparation
-Data Shaping
-DAX
-Measure Creation
-KPI Calculations
-Aggregations
-Analytical Calculations
-Data Analytics
-Exploratory Data Analysis
-Survey Analysis
-Salary Analysis
-Demographic Analysis
-Comparative Analysis
-Data Visualization
-Business Insights
-🎓 Learning Outcomes
+```
+
+---
+
+## 🧠 Skills Demonstrated
+
+### Power BI
+
+- Dashboard Development
+- Interactive Visualization
+- KPI Development
+- Business Intelligence
+- Report Design
+
+### Power Query
+
+- Data Cleaning
+- Data Transformation
+- Data Preparation
+- Data Shaping
+
+### DAX
+
+- Measure Creation
+- KPI Calculations
+- Aggregations
+- Analytical Calculations
+
+### Data Analytics
+
+- Exploratory Data Analysis
+- Survey Analysis
+- Salary Analysis
+- Demographic Analysis
+- Comparative Analysis
+- Data Visualization
+- Business Insights
+
+---
+
+## 🎓 Learning Outcomes
 
 This project demonstrates practical experience in:
 
-Building professional Power BI dashboards
-Cleaning and transforming datasets
-Creating DAX measures
-Developing KPI cards
-Analyzing survey data
-Creating interactive visualizations
-Performing salary analysis
-Performing demographic analysis
-Analyzing programming language preferences
-Presenting analytical findings in a business-friendly format
-📂 Project Structure
-Data-Professional-Survey-Breakdown/
+- Building professional Power BI dashboards
+- Cleaning and transforming datasets
+- Creating DAX measures
+- Developing KPI cards
+- Analyzing survey data
+- Creating interactive visualizations
+- Performing salary analysis
+- Performing demographic analysis
+- Analyzing programming language preferences
+- Presenting analytical findings in a business-friendly format
+
+---
+
+## 📂 Project Structure
+
+```text
+Data-Professional-Survey-Breakdown-PowerBI/
 │
-├── images/
+├── Images/
 │   ├── Dashboard.png
 │   └── Dashboard_Information.png
 │
 ├── Data Professional Survey Breakdown.pbix
 │
-├── Dataset.xlsx
+├── Data_Professional_Survey_Data.xlsx
 │
-└── README.md
-🚀 How to Use
-Step 1
+└── README.MD
+```
 
-Install Microsoft Power BI Desktop.
+---
 
-Step 2
+## 🚀 How to Use
 
-Open the Power BI file:
+### Step 1 — Install Power BI
 
-Data Professional Survey Breakdown.pbix
+Install **Microsoft Power BI Desktop**.
 
-Step 3
+### Step 2 — Open the Power BI File
+
+Open:
+
+`Data Professional Survey Breakdown.pbix`
+
+### Step 3 — Refresh the Dataset
 
 Refresh the dataset if required.
 
-Step 4
+### Step 4 — Explore the Dashboard
 
 Explore the interactive dashboard and analyze:
 
-Countries
-Job Titles
-Salaries
-Programming Languages
-Career Difficulty
-Work-Life Balance
-Salary Satisfaction
-⭐ Project Highlight
+- Countries
+- Job Titles
+- Salaries
+- Programming Languages
+- Career Difficulty
+- Work-Life Balance
+- Salary Satisfaction
 
-The Data Professional Survey Breakdown project demonstrates how survey data can be transformed into an interactive Business Intelligence solution using Power BI, Power Query, DAX, and data visualization.
+---
+
+## ⭐ Project Highlight
+
+The **Data Professional Survey Breakdown** project demonstrates how survey data can be transformed into an interactive Business Intelligence solution using **Power BI, Power Query, DAX, and data visualization**.
 
 The dashboard combines multiple analytical perspectives into a single reporting solution, making it easier to understand trends and patterns across the data professional landscape.
 
-👨‍💻 Author
+---
 
-Deep Gaikwad
+## 👨‍💻 Author
 
-Aspiring Data Analyst
+**Deep Gaikwad**
 
-Excel | SQL | Python | Power BI | DAX | Power Query | Data Analysis | Data Visualization
+**Aspiring Data Analyst**
 
-📊 Project Category
+`Excel` | `SQL` | `Python` | `Power BI` | `DAX` | `Power Query` | `Data Analysis` | `Data Visualization`
 
-Data Analytics | Business Intelligence | Power BI | Data Visualization
+---
+
+## 📊 Project Category
+
+**Data Analytics | Business Intelligence | Power BI | Data Visualization**
+
+---
 
 ⭐ If you find this project useful, consider giving the repository a star.
