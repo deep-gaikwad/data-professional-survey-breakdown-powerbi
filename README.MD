@@ -159,11 +159,13 @@ This metric provides an overall view of salary satisfaction across the surveyed 
 
 DAX measures were created to support KPI development and analytical reporting.
 
-Example:
+### Survey Takers
 
 ```DAX
 Survey Takers =
 COUNTROWS('Data Professional Survey')
+
+---
 
 Additional calculations were used for:
 
